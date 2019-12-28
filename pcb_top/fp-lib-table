@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name random-keyboard-parts)(type KiCad)(uri /Users/sotoba/git/github.com/ai03-2725/random-keyboard-parts.pretty)(options "")(descr ""))
+)
