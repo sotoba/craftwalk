@@ -1,2 +1,4 @@
-# craftwalk
-keyboard pcb for crafters
+# craftWalk
+macro pad for crafters
+
+
