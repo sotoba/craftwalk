@@ -2,8 +2,8 @@
 
 macro pad for (mine)?(crafter|creator).
 
-<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_blink.jpg" width="640">
-<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_ender.jpg" width="640">
+<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_blink.jpg" width="860">
+<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_ender.jpg" width="860">
 
 ## Documents
 
