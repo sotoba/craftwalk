@@ -142,6 +142,19 @@ ProMicroをUSBケーブルでPCと接続し、GUI(`QMK Toolbox`)かCLI(`make`も
     - https://docs.qmk.fm/#/ja/newbs_building_firmware
     - https://docs.qmk.fm/#/ja/newbs_flashing
 
+ファームウェアを書き込む際は、PCB裏面に半田付けしたリセットスイッチを押してProMicroをフラッシュモードにしてください。
+
+### GUI
+
+ファームウェアはQMK Configuratorから生成することができます。
+
+https://config.qmk.fm/#/craftwalk/LAYOUT
+
+ファームウェアのコンパイルおよびダウンロード後、QMK Toolboxへロードして書き込みを実行してください。  
+なお、書き込みの際はMCUに `atmega32u4` を指定してください。
+
+### CLI
+
 __makeコマンドの場合__
 
 ```zsh
@@ -154,8 +167,6 @@ __qmkコマンドの場合__
 $ qmk compile -kb craftwalk -km default
 $ qmk flash -kb craftwalk -km default -bl avrdude
 ```
-
-ファームウェアを書き込む際は、PCB裏面に半田付けしたリセットスイッチを押してProMicroをフラッシュモードにしてください。
 
 ## 組み立て
 
